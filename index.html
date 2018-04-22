@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="replica of google homepage" />
+    <meta name="keywords" content="replica, google homepage" />
+    <meta name="author" content="Zachary Ledoux" />
+
+    <!-- Font Awesome css file -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <!-- Personal made css file -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!--Google Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+    <title>Google Replica</title>
+
+    <!--
+            TABLES OF CONTENTS:
+            1. PAGE CONTAINER
+            2. NAV BAR
+            3. MAIN CONTENT/SEARCH FORM
+            4. FOOTER
+    -->
+
+    </head>
+    <body>
+
+
+        <!--
+1.
+        Container that contains the whole page -->
+        <div id="page-container">
+
+
+            <!-- 
+2.    
+            Nav bar at top of page -->
+            <nav>
+
+                <!-- about and store links -->
+                <ul>
+                    <div class="fleft">
+                        <li><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                        <li><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+                    </div>
+            
+                    <!-- links floated right -->
+                    <div class="fright" >
+                        <li><a href="https://www.google.com/">+Zachary</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/?tab=wm">Gmail</a></li>
+                        <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
+                        <li><i class="fa fa-th fa-2x"></i></li>
+                        <li><i class="far fa-bell fa-2x"></i></li>
+                        <li><img class="nav-image" src="images/zled.jpg" alt="a tattooed man standing in front of a bush"></li>
+                    </div>  
+                </ul>
+
+            </nav>
+
+
+            <!--
+3.    
+            Block that contains the search form -->
+            <section class="search text-align">
+
+                <!-- Google Logo -->
+                <img class="search-image" src="images/google.png" alt="google logo" />
+
+                <!-- Search Bar Form -->
+                <form action="search.php" method="POST" id="search-bar-form"  target="_self">
+                
+                    <!-- Search Bar -->
+                    <input class="search-bar" type="text" name="search" placeholder="Search Google or type a URL" />
+                
+                    <br />
+                    <!-- Search Buttons -->
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+
+                </form>
+
+                
+            </section>
+
+
+            <!-- 
+4.    
+            Footer that contains a few auxillary links -->
+            <footer>
+
+                <!-- Advertising and Business links -->
+                <ul>
+                    <div class="fleft">
+                        <li><a href="https://adwords.google.com/start/?sourceid=awo&subid=us-en-et-g-aw-a-awhpt2b_1!o2&utm_expid=95258301-62.j8d9EPtxRJejVhR7dcqliQ.3&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1&utm_referrer=https%3A%2F%2Fwww.google.com%2F#?modal_active=none">Advertising</a></li>
+                        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                    </div>
+                
+                    <!-- links floated right -->
+                    <div class="fright" >
+                        <li><a href="https://policies.google.com/privacy?hl=en&gl=us">Privacy</a></li>
+                        <li><a href="https://policies.google.com/terms?hl=en&gl=us">Terms</a></li>            
+                        <li><a>Settings</a></li>            
+                    </div>  
+                </ul>
+
+            </footer>
+        </div>
+    </body>
+</html>
